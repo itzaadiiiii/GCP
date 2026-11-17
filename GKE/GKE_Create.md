@@ -13,3 +13,8 @@ gcloud config set project <project-id>
 gcloud confing set compute/zone us-east1-d
 ```
 ### Create a Cluster: (You can even pass the compute size but we are going with default
+```
+gcloud container cluster create <cluster-name> \
+	 --node-pool=default-pool \
+	 --region=us-east1
+```
