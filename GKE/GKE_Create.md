@@ -28,4 +28,8 @@ gcloud container cluster create <cluster-name> \
 - By default it took **`e2 medium`** size as we not provided.
 - Go to Compute Engine you can see it created 3 compute engines **`one per zone`** in region **`us-east1`**
 
+### Get the Cluster Details (kube/config)
+```
+gcloud container clusters get-credentials day2-ops --region us-east1
+```
 
