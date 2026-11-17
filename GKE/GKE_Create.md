@@ -36,3 +36,15 @@ gcloud container clusters get-credentials day2-ops --region us-east1
 ```
 gcloud container clusters list
 ```
+```
+kubectl get nodes
+```
+```
+git clone htts://github.com/GoogleCloudPlatform/microservices-demo.git
+```
+```
+cd microservices-demo
+```
+```
+kubectl apply -f releases/kubernetesmanifests.yaml
+```
