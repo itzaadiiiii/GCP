@@ -32,4 +32,7 @@ gcloud container cluster create <cluster-name> \
 ```
 gcloud container clusters get-credentials day2-ops --region us-east1
 ```
-
+### # To see the cluster 
+```
+gcloud container clusters list
+```
