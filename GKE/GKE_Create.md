@@ -48,3 +48,4 @@ cd microservices-demo
 ```
 kubectl apply -f releases/kubernetesmanifests.yaml
 ```
+## Goto —> GKE UI —→ Gateway/services —→ Copy the frontend service IP and Paste in browser
